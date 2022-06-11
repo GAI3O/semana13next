@@ -1,0 +1,40 @@
+
+.main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #B4FF48;
+    text-shadow: 0 0 5px #000000f9, 0 0 10px #000000f9, 0 0 15px #000000f9, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+  }
+  
+  .container .firstdiv{
+    flex: 30%;
+    margin: 30px;
+    border-radius: 16px;
+    box-shadow: -1px -7px 33px -3px rgba(252, 252, 252, 0.96);
+    display:flex;
+    background-color:rgb(32, 35, 41);
+  }
+  
+  .container img{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+  
+  .container h4 {
+    font-size: 1.8em;
+    text-transform: capitalize;
+  }
+  
+  .detail {
+    display: grid;
+    margin: 1%;
+    color: azure;
+  
+  }
